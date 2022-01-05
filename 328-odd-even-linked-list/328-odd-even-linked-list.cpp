@@ -34,7 +34,7 @@ public:
 //         odd->next=eh;
 //         even->next=NULL;
 //         return head;
-         //solution 1 end
+//         solution 1 end
         if(!head||!head->next||!head->next->next)
              return head;
         ListNode* odd=head;
