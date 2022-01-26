@@ -46,7 +46,7 @@ class Solution
        Node* right=lca(root->right,n1,n2);
        if(!left)
        return right;
-       if(!right)
+       else if(!right)
        return left;
        else 
        return root;
