@@ -7,8 +7,7 @@ class Solution {
 public:
 bool dfs(vector<int>&vis,vector<int>&dfss,int src, vector<int>adj[])
 {
-    if(vis[src])
-    return false;
+    
     
    dfss[src]=vis[src]=1;
     for(auto it:adj[src]){
